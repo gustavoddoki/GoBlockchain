@@ -1,6 +1,6 @@
 module github.com/gustavoddoki/GoBlockchain
 
-go 1.18.0
+go 1.18
 
 require (
 	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect

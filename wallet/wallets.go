@@ -74,7 +74,6 @@ func (wallets *Wallets) SaveFile() {
 	encoder := gob.NewEncoder(&content)
 	err := encoder.Encode(wallets)
 	if err != nil {
-		print("Error")
 		log.Panic(err)
 	}
 
