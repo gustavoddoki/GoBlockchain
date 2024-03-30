@@ -37,7 +37,7 @@ func (pow *ProofOfWork) ProcessData(nonce int) []byte {
 	data := bytes.Join(
 		[][]byte{
 			pow.Block.PreviousHash,
-			pow.Block.Data,
+			pow.Block.HashTransactions(),
 			ConvertIntToHex(pow.Block.CreationTime),
 			ConvertIntToHex(int64(mining_difficulty)),
 			ConvertIntToHex(int64(nonce)),
