@@ -11,25 +11,9 @@ This project implements a basic blockchain with features such as wallet creation
 Make sure you have Go installed on your machine before running this project.
 
 ## Installation
-
-1. Clone this repository:
-
     ```bash
     git clone https://github.com/gustavoddoki/GoBlockchain.git
     ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd GoBlockchain
-    ```
-
-3. Run the `main.go` file:
-
-    ```bash
-    go run main.go
-    ```
-
 ## Usage
 
 Here are the available commands in the command-line interface (CLI):
@@ -43,21 +27,27 @@ Here are the available commands in the command-line interface (CLI):
 
 Usage example:
 
-```bash
-# Get the balance for a specific address
-./GoBlockchain getbalance -address ADDRESS
-
-# Create a new blockchain
-./GoBlockchain createblockchain -address ADDRESS
-
-# Print the blocks in the chain
-./GoBlockchain printchain
-
-# Send coins from one wallet to another
-./GoBlockchain send -from FROM -to TO -amount AMOUNT
-
-# Create a new wallet
-./GoBlockchain createwallet
-
-# List the addresses in the wallet file
-./GoBlockchain listaddresses
+- Get the balance for a specific address
+```
+go run main.go getbalance -address ADDRESS
+```
+- Create a new blockchain
+```
+go run main.go createblockchain -address ADDRESS
+```
+- Print the blocks in the chain
+```
+go run main.go printchain
+```
+- Send coins from one wallet to another
+```
+go run main.go send -from FROM -to TO -amount AMOUNT
+```
+- Create a new wallet
+```
+go run main.go createwallet
+```
+- List the addresses in the wallet file
+```
+go run main.go listaddresses
+```
