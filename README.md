@@ -8,7 +8,7 @@ This project implements a basic blockchain with features such as wallet creation
 
 ## Prerequisites
 
-Make sure you have Go installed on your machine before running this project.
+Make sure you have Go 1.18 installed on your machine before running this project.
 
 ## Installation
 ```
