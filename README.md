@@ -11,7 +11,7 @@ This project implements a basic blockchain with features such as wallet creation
 Make sure you have Go installed on your machine before running this project.
 
 ## Installation
-    ```bash
+    ```
     git clone https://github.com/gustavoddoki/GoBlockchain.git
     ```
 ## Usage
